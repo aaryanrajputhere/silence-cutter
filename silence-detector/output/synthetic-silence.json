@@ -1,0 +1,41 @@
+{
+  "inputFile": "/home/aaryan/projects/silence-cutter/silence-detector/test-media/synthetic-silence.wav",
+  "mediaDuration": 10,
+  "settings": {
+    "thresholdDb": -35,
+    "minimumDurationSeconds": 0.5,
+    "paddingSeconds": 0
+  },
+  "summary": {
+    "rawSilenceCount": 2,
+    "removableRangeCount": 2,
+    "rawSilenceDuration": 5,
+    "removableDuration": 5,
+    "estimatedFinalDuration": 5,
+    "percentageRemoved": 50
+  },
+  "rawRanges": [
+    {
+      "start": 2,
+      "end": 4,
+      "duration": 2
+    },
+    {
+      "start": 7,
+      "end": 10,
+      "duration": 3
+    }
+  ],
+  "removableRanges": [
+    {
+      "start": 2,
+      "end": 4,
+      "duration": 2
+    },
+    {
+      "start": 7,
+      "end": 10,
+      "duration": 3
+    }
+  ]
+}

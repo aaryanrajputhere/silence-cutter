@@ -1,0 +1,14 @@
+{
+  "inputFolder": "/home/aaryan/projects/silence-cutter/silence-detector/test-media",
+  "generatedAt": "2026-07-25T06:24:58.504Z",
+  "successfulFiles": 0,
+  "failedFiles": 0,
+  "totals": {
+    "durationAnalyzed": 0,
+    "silenceSectionsDetected": 0,
+    "rawSilenceDuration": 0,
+    "removableDuration": 0
+  },
+  "results": [],
+  "failures": []
+}

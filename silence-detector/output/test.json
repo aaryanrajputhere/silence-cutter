@@ -1,0 +1,81 @@
+{
+  "inputFile": "/home/aaryan/projects/silence-cutter/silence-detector/test-media/test.mp4",
+  "mediaDuration": 16.64,
+  "settings": {
+    "thresholdDb": -15,
+    "minimumDurationSeconds": 0.5,
+    "paddingSeconds": 0.08
+  },
+  "summary": {
+    "rawSilenceCount": 6,
+    "removableRangeCount": 6,
+    "rawSilenceDuration": 7.204,
+    "removableDuration": 6.245,
+    "estimatedFinalDuration": 10.395,
+    "percentageRemoved": 37.53
+  },
+  "rawRanges": [
+    {
+      "start": 2.353,
+      "end": 3.204,
+      "duration": 0.851
+    },
+    {
+      "start": 4.607,
+      "end": 5.527,
+      "duration": 0.92
+    },
+    {
+      "start": 6.67,
+      "end": 7.608,
+      "duration": 0.938
+    },
+    {
+      "start": 7.608,
+      "end": 10.15,
+      "duration": 2.542
+    },
+    {
+      "start": 10.584,
+      "end": 11.773,
+      "duration": 1.188
+    },
+    {
+      "start": 13.184,
+      "end": 13.949,
+      "duration": 0.765
+    }
+  ],
+  "removableRanges": [
+    {
+      "start": 2.433,
+      "end": 3.124,
+      "duration": 0.691
+    },
+    {
+      "start": 4.687,
+      "end": 5.447,
+      "duration": 0.76
+    },
+    {
+      "start": 6.75,
+      "end": 7.528,
+      "duration": 0.778
+    },
+    {
+      "start": 7.688,
+      "end": 10.07,
+      "duration": 2.382
+    },
+    {
+      "start": 10.664,
+      "end": 11.693,
+      "duration": 1.029
+    },
+    {
+      "start": 13.264,
+      "end": 13.869,
+      "duration": 0.605
+    }
+  ]
+}
