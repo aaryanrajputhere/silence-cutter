@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Silence Cutter Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">WINDOWS PROTOTYPE</p>
+        <h1>Extract Audio</h1>
+        <p class="intro">Choose a media file and extract its audio as a 48 kHz WAV using FFmpeg.</p>
+      </header>
+
+      <section class="card">
+        <span class="step">1</span>
+        <div class="content">
+          <h2>Source media</h2>
+          <p id="sourcePath" class="path">No file selected</p>
+          <button id="chooseSource" type="button">Choose media file</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <span class="step">2</span>
+        <div class="content">
+          <h2>Output folder</h2>
+          <p id="outputPath" class="path">No folder selected</p>
+          <button id="chooseOutput" type="button">Choose output folder</button>
+        </div>
+      </section>
+
+      <button id="extract" class="primary" type="button" disabled>Extract WAV</button>
+      <button id="openOutput" class="secondary" type="button" disabled>Open output folder</button>
+
+      <div id="status" class="status info" role="status" aria-live="polite">
+        Select a source file and output folder.
+      </div>
+
+      <details>
+        <summary>Prototype limitations</summary>
+        <p>FFmpeg must be installed on Windows and available on PATH. Premiere may need restarting after FFmpeg installation. UXP asks permission before starting the command.</p>
+      </details>
+    </main>
+  </body>
+</html>

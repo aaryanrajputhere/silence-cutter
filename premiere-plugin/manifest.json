@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 5,
+  "id": "com.aaryan.silencecutter.prototype",
+  "name": "Silence Cutter Prototype",
+  "version": "0.1.0",
+  "main": "index.html",
+  "host": {
+    "app": "premierepro",
+    "minVersion": "25.6.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "silenceCutterPanel",
+      "label": {
+        "default": "Silence Cutter Prototype"
+      },
+      "minimumSize": {
+        "width": 280,
+        "height": 360
+      },
+      "preferredDockedSize": {
+        "width": 340,
+        "height": 520
+      },
+      "preferredFloatingSize": {
+        "width": 380,
+        "height": 560
+      }
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "request",
+    "launchProcess": {
+      "extensions": [
+        ".cmd",
+        ""
+      ],
+      "schemes": []
+    }
+  }
+}
